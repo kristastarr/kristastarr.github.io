@@ -1,3 +1,70 @@
 body {
-	background : blue;
+	background : #F5F5F5;
+	color: darkcyan;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	position: relative;
+}
+
+h1 {
+	color: slategray;
+	font-style: italic;
+	text-align: center;
+}
+
+h2 {
+	color: slategray;
+}
+
+h3 { 
+	color: slategray;
+
+}
+
+blockquote {
+	font-style: italic;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.city {
+	color: pink;
+}
+
+a.link:link {
+	color: teal;
+}
+
+a.link:visited {
+	color: red;
+}
+
+a.link:hover {
+	color: blue;
+}
+
+a.link: active {
+	color: green;
+
+}
+
+#main-image {
+	margin: auto;
+	padding: 25px;
+	border-radius: 50%;
+	max-width: 300px;
+}
+
+#background-image {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	z-index: -1;
+	opacity: 0.25;
+}
+
+#thanks-message {
+	text-align: center;
+}
+
+form {
+	
 }
