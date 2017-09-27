@@ -67,10 +67,16 @@ a:active {
 	color: gray;
 }
 
+ul {
+	color:  #080705;
+	font-family: 'Dosis', sans-serif;
+}
+
 #contact {
 	margin: auto;
 	 width: 33%;
 }
+
 
 #bio {
 	color:  #080705;
