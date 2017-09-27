@@ -11,6 +11,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e0e3', end
 background-repeat: no-repeat;
 }
 
+
 h1 {
    	color: #080705;
     font-family: 'Abril Fatface', cursive; 
@@ -66,16 +67,10 @@ a:active {
 	color: gray;
 }
 
-ul {
-	color:  #080705;
-	font-family: 'Dosis', sans-serif;
-}
-
 #contact {
 	margin: auto;
 	 width: 33%;
 }
-
 
 #bio {
 	color:  #080705;
@@ -83,7 +78,7 @@ ul {
 	text-align: justify;
     text-justify: inter-word;
 	margin: auto;
-	width: 33%;
+	width: 50%;
 	padding-bottom: 75px;
 }
 
@@ -109,18 +104,14 @@ img {
     text-justify: inter-word;
 	margin: auto;
 	width: 50%;
+	padding-top: 20px;
 }
 
 .project {
-	padding: 25px;
+	padding-bottom: 80px;
 }
 
-
-#rp {
-	padding-top: 0px
-}
-
-#test {
+#list {
 	text-align: center;
 	padding-top: 25px;
 }
