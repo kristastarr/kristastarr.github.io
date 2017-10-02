@@ -11,32 +11,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e0e3', end
 background-repeat: no-repeat;
 }
 
-#navbar {
-	background-color: white;
-	display: flex;
-	flex-direction: row-reverse;
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: white;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
-li {
-	float: right;
-}
 
-li a {
-    display: block;
+
+h1 {
+   	color: #080705;
+    font-family: 'Abril Fatface', cursive; 
     text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    color:  #080705;
-	font-family: 'Dosis', sans-serif;
+    padding-top: 50px;
 }
 
+h2 {
+	color: #080705;
+    font-family: 'Abril Fatface', cursive; 
+    text-align: center;
+}
+
+h3 {
+	color: #080705;
+    font-family: 'Abril Fatface', cursive; 
+    text-align: center;
+}
+
+h4 {
+	color: #080705;
+    font-family: 'Dosis', sans-serif; 
+    text-align: center;
+}
+
+title {
+	padding-bottom: 30px;
+}
+
+#nav {
+	word-spacing: 30px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+}
 
 a:link {
     text-decoration: none;
@@ -51,11 +79,36 @@ a:visited {
 a:hover {
 	color:  #080705;
 	font-weight: bold;
-	font-size: 15px;
 }
 
 a:active {
 	color: gray;
+}
+
+ul {
+	color:  #080705;
+	font-family: 'Dosis', sans-serif;
+}
+
+#contact {
+	margin: auto;
+	 width: 33%;
+}
+
+
+#bio {
+	color:  #080705;
+	font-family: 'Dosis', sans-serif;
+	text-align: justify;
+    text-justify: inter-word;
+	margin: auto;
+	width: 50%;
+	padding-bottom: 75px;
+}
+
+img {
+	display: block;
+	margin: auto;
 }
 
 #selfie {
@@ -65,44 +118,38 @@ a:active {
 }
 
 #sitepic {
-	width: 33%;
-}
-
-
-#header {
-
-}
-
-#about {
-	text-align: center;
-	/*background-color: white;*/
+	width: 50%;
 }
 
 #projects {
+	color:  #080705;
+	font-family: 'Dosis', sans-serif;
+	text-align: justify;
+    text-justify: inter-word;
+	margin: auto;
+	width: 50%;
+	padding-top: 20px;
+}
+
+.project {
+	padding-bottom: 80px;
+}
+
+#list {
 	text-align: center;
-	/*background-color: gray;*/
+	padding-top: 25px;
 }
 
-#contact {
-	text-align: center;
-	/*background-color: pink;*/
-}
-
-h1, h2, h3 {
-	color: #080705;
-    font-family: 'Abril Fatface', cursive; 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    position: fixed;
 }
 
-h4 {
-	color: #080705;
-    font-family: 'Dosis', sans-serif; 
-    text-align: center;
+li {
+	display: inline;
+
 }
-
-
-.section {
-	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-}
-
 
