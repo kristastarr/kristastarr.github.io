@@ -126,6 +126,7 @@ background-repeat: no-repeat;
 
 #projects {
 	background-color: white;
+	padding-top: 0px;
 }
 
 #projects a:link {
@@ -144,7 +145,7 @@ background-repeat: no-repeat;
 	background-image: url("assets/water.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 300px;
+	padding-bottom: 500px;
 }
 
 #contact h2 {
@@ -157,4 +158,7 @@ background-repeat: no-repeat;
 
 .white {
 	color: white;
+}
+#confetti {
+	width: 100%;
 }
