@@ -14,12 +14,22 @@ background-repeat: no-repeat;
 header {
 	background-color: white;
 	width: 100%;
-	display: flex;
-	flex-direction: row-reverse;
 	position: fixed;
 	top: 0px;
 	left: 0px;  
 }
+
+#nav-name {
+	/*vertical-align: middle;*/
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#nav-name a:link {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px; 
+}	
 
 
 ul {
@@ -43,6 +53,7 @@ li a {
 }
 
 
+
 a:link {
     text-decoration: none;
 	color:  #080705;
@@ -61,6 +72,12 @@ a:hover {
 
 a:active {
 	color: gray;
+}
+
+
+
+h1 {
+	font-size: 50px;
 }
 
 
@@ -85,7 +102,6 @@ p {
 }
 
 
-
 .section {
 	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
 	text-align: center;
@@ -106,18 +122,38 @@ p {
 }
 
 #name {
-	background-color: gray;
-	padding-top: 100px;
-	padding-bottom: 100px;
+padding-top: 150px;
+padding-bottom: 150px;
+background: rgba(245,224,227,1);
+background: -moz-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,224,227,1)), color-stop(42%, rgba(255,255,255,1)), color-stop(44%, rgba(255,255,255,1)), color-stop(77%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e0e3', endColorstr='#ffffff', GradientType=0 );
+background-repeat: no-repeat;
+}
+
+#contact-links {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #about {
-	background-color: white;
-	
+	background-color: #f5f5f5;
 }
 
 #projects {
-	background-color: gray;
+	background-color: white;
+}
+
+#projects a:link {
+	font-family: 'Abril Fatface', cursive; 
+}
+
+#projects a:hover {
+	font-size: 20px; 
 }
 
 .project {
@@ -125,7 +161,7 @@ p {
 }
 
 #contact {
-	background-color: white;
+	background-color: #f5f5f5;
 	padding-bottom: 300px;
 }
 
