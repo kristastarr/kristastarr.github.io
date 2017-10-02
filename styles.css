@@ -11,17 +11,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e0e3', end
 background-repeat: no-repeat;
 }
 
-#navbar {
+header {
 	background-color: white;
+	width: 100%;
 	display: flex;
 	flex-direction: row-reverse;
+	position: fixed;
+	top: 0px;
+	left: 0px;  
 }
+
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    position: fixed;
+    padding-right: 15px;
+    height: 50px;
 }
 
 li {
@@ -62,30 +67,32 @@ a:active {
 	border-radius: 50%;
     width: 15%; 
     padding: 25px;
+    min-width: 150px;
 }
 
 #sitepic {
 	width: 33%;
+	min-width: 250px;
 }
 
-
-#header {
-
+#name {
+	background-color: gray;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 #about {
-	text-align: center;
-	/*background-color: white;*/
+	background-color: white;
+	
 }
 
 #projects {
-	text-align: center;
-	/*background-color: gray;*/
+	background-color: gray;
 }
 
 #contact {
-	text-align: center;
-	/*background-color: pink;*/
+	background-color: white;
+	padding-bottom: 300px;
 }
 
 h1, h2, h3 {
@@ -100,9 +107,11 @@ h4 {
     text-align: center;
 }
 
-
 .section {
-	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
+	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 

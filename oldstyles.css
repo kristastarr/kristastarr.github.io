@@ -12,24 +12,6 @@ background-repeat: no-repeat;
 }
 
 
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 400px;
-    height: 250px;
-    background-color: white;
-}
-
-
-.flex-item {
-    background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-}
-
-
-
 h1 {
    	color: #080705;
     font-family: 'Abril Fatface', cursive; 
