@@ -63,6 +63,36 @@ a:active {
 	color: gray;
 }
 
+
+h1, h2, h3 {
+	color: #080705;
+    font-family: 'Abril Fatface', cursive; 
+    text-align: center;
+}
+
+h4 {
+	color: #080705;
+    font-family: 'Dosis', sans-serif; 
+    text-align: center;
+}
+
+
+p {
+	padding: 20px;
+	max-width: 750px;
+	margin: auto;
+	font-family: 'Dosis', sans-serif; 
+}
+
+
+
+.section {
+	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 #selfie {
 	border-radius: 50%;
     width: 15%; 
@@ -90,28 +120,13 @@ a:active {
 	background-color: gray;
 }
 
+.project {
+	padding-bottom: 30px;
+}
+
 #contact {
 	background-color: white;
 	padding-bottom: 300px;
-}
-
-h1, h2, h3 {
-	color: #080705;
-    font-family: 'Abril Fatface', cursive; 
-    text-align: center;
-}
-
-h4 {
-	color: #080705;
-    font-family: 'Dosis', sans-serif; 
-    text-align: center;
-}
-
-.section {
-	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 
