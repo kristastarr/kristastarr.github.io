@@ -1,52 +1,47 @@
 html {
 height: 100%;
-background: rgba(245,224,227,1);
-background: -moz-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,224,227,1)), color-stop(42%, rgba(255,255,255,1)), color-stop(44%, rgba(255,255,255,1)), color-stop(77%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(top, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to bottom, rgba(245,224,227,1) 0%, rgba(255,255,255,1) 42%, rgba(255,255,255,1) 44%, rgba(255,255,255,1) 77%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e0e3', endColorstr='#ffffff', GradientType=0 );
-background-repeat: no-repeat;
 }
 
+header {
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;  
+}
 
-h1 {
-   	color: #080705;
-    font-family: 'Abril Fatface', cursive; 
+#nav-name {
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#nav-name a:link {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px; 
+}	
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 15px;
+    height: 50px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+    display: block;
     text-align: center;
-    padding-top: 50px;
+    padding: 15px;
+    text-decoration: none;
+    color:  #080705;
+	font-family: 'Dosis', sans-serif;
 }
 
-h2 {
-	color: #080705;
-    font-family: 'Abril Fatface', cursive; 
-    text-align: center;
-}
-
-h3 {
-	color: #080705;
-    font-family: 'Abril Fatface', cursive; 
-    text-align: center;
-}
-
-h4 {
-	color: #080705;
-    font-family: 'Dosis', sans-serif; 
-    text-align: center;
-}
-
-title {
-	padding-bottom: 30px;
-}
-
-#nav {
-	word-spacing: 30px;
-    font-family: 'Dosis', sans-serif;
-    text-align: center;
-    padding-bottom: 25px;
-}
 
 a:link {
     text-decoration: none;
@@ -61,63 +56,105 @@ a:visited {
 a:hover {
 	color:  #080705;
 	font-weight: bold;
+	font-size: 15px;
 }
 
 a:active {
 	color: gray;
 }
 
-ul {
-	color:  #080705;
-	font-family: 'Dosis', sans-serif;
-}
 
-#contact {
-	margin: auto;
-	 width: 33%;
+h1 {
+	font-size: 50px;
 }
 
 
-#bio {
-	color:  #080705;
-	font-family: 'Dosis', sans-serif;
-	text-align: justify;
-    text-justify: inter-word;
-	margin: auto;
-	width: 50%;
-	padding-bottom: 75px;
+h1, h2, h3 {
+	color: #080705;
+    font-family: 'Abril Fatface', cursive; 
+    text-align: center;
 }
 
-img {
-	display: block;
+h4 {
+	color: #080705;
+    font-family: 'Dosis', sans-serif; 
+    text-align: center;
+}
+
+p {
+	padding: 20px;
+	max-width: 750px;
 	margin: auto;
+	font-family: 'Dosis', sans-serif; 
+}
+
+.section {
+	flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ];
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 #selfie {
 	border-radius: 50%;
     width: 15%; 
     padding: 25px;
+    min-width: 150px;
 }
 
 #sitepic {
-	width: 50%;
+	width: 33%;
+	min-width: 250px;
+}
+
+#name {
+padding-top: 150px;
+padding-bottom: 150px;
+background-size: cover;
+background-image: url("assets/palmtrees.jpg");
+background-repeat: no-repeat;
+}
+
+#contact-links {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#about {
+	background-color: #F2DDDE;
 }
 
 #projects {
-	color:  #080705;
-	font-family: 'Dosis', sans-serif;
-	text-align: justify;
-    text-justify: inter-word;
-	margin: auto;
-	width: 50%;
-	padding-top: 20px;
+	background-color: white;
+}
+
+#projects a:link {
+	font-family: 'Abril Fatface', cursive; 
+}
+
+#projects a:hover {
+	font-size: 20px; 
 }
 
 .project {
-	padding-bottom: 80px;
+	padding-bottom: 30px;
 }
 
-#list {
-	text-align: center;
-	padding-top: 25px;
+#contact {
+	background-image: url("assets/water.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 300px;
+}
+
+#contact h2 {
+	color: white;
+}
+
+#contact a:link, #contact a:visited, #contact a:active, #contact a:hover{
+	color: white;
+}
+
+.white {
+	color: white;
 }
