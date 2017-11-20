@@ -1,5 +1,5 @@
 html {
-height: 100%;
+	height: 100%;
 }
 
 header {
@@ -7,7 +7,7 @@ header {
 	width: 100%;
 	position: fixed;
 	top: 0px;
-	left: 0px;  
+	left: 0px; 
 }
 
 #nav-name {
@@ -21,6 +21,14 @@ header {
 	font-size: 20px; 
 }	
 
+#contact-links {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.padding {
+	padding-right: 5px;
+}
 
 ul {
     list-style-type: none;
@@ -41,7 +49,6 @@ li a {
     color:  #080705;
 	font-family: 'Dosis', sans-serif;
 }
-
 
 a:link {
     text-decoration: none;
@@ -69,23 +76,25 @@ h1 {
 }
 
 
-h1, h2, h3 {
+h1, h2 {
 	color: #080705;
     font-family: 'Abril Fatface', cursive; 
     text-align: center;
 }
 
-h4 {
+h3{
 	color: #080705;
     font-family: 'Dosis', sans-serif; 
     text-align: center;
+    font-size: 22px;
 }
 
 p {
 	padding: 20px;
 	max-width: 750px;
 	margin: auto;
-	font-family: 'Dosis', sans-serif; 
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px; 
 }
 
 .section {
@@ -104,24 +113,27 @@ p {
 
 #sitepic {
 	width: 33%;
-	min-width: 250px;
+	min-width: 350px;
 }
 
 #name {
-padding-top: 150px;
-padding-bottom: 150px;
-background-size: cover;
-background-image: url("assets/palmtrees.jpg");
-background-repeat: no-repeat;
-}
-
-#contact-links {
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-size: cover;
+	background-image: url("assets/palmtrees.jpg");
+	background-repeat: no-repeat;
+}	
 
 #about {
 	background-color: #F2DDDE;
+}
+
+#about a {
+	font-family: 'Abril Fatface', cursive; 
+}
+
+#projects h1 {
+	padding-top: 50px;
 }
 
 #projects {
@@ -129,36 +141,46 @@ background-repeat: no-repeat;
 	padding-top: 0px;
 }
 
+#projects img {
+	width: 50vw;
+}
+
 #projects a:link {
 	font-family: 'Abril Fatface', cursive; 
 }
 
 #projects a:hover {
-	font-size: 20px; 
+	font-size: 25px; 
+}
+
+#projects img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 .project {
-	padding-bottom: 30px;
+	padding-bottom: 60px;
 }
 
 #contact {
 	background-image: url("assets/water.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 500px;
+	padding-top: 150px;
+	padding-bottom: 200px;
 }
 
 #contact h2 {
-	color: white;
+	color: black;
 }
 
 #contact a:link, #contact a:visited, #contact a:active, #contact a:hover{
-	color: white;
+	font-family: 'Abril Fatface', cursive;
+	color: black;
 }
 
-.white {
-	color: white;
+#contact a:hover {
+	font-weight: bold;
+	font-size: 18px;
 }
-#confetti {
-	width: 100%;
-}
+
