@@ -186,28 +186,29 @@ p {
 	font-size: 18px;
 }
 
-#rp p {
+#rp, #wearehear p {
 	text-align: center;
 }
 
-#rp p:last-of-type {
+#rp, #wearehear p:last-of-type {
 	padding-bottom: 50px;
 }
 
-#rp img {
+#rp, #wearehear img {
 	display: block;
     margin: 0 auto;
     padding: 20px;
 }
 
-#rp ul {
-	width: 100%;
-	margin: auto;
-	text-align: center;
-	display: inline-block;
-	font-family: 'Dosis', sans-serif; 
+#wearehear img {
+	width: 85%;
+}
+#wearehear img:first-of-type {
+	width: 50%;
 }
 
 #rp h2 {
 	margin-top: 50px;
 }
+
+
