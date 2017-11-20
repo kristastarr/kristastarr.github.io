@@ -7,11 +7,14 @@
 			<link rel="stylesheet" type="text/css" href="styles.css"/>
 			<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dosis" rel="stylesheet">
 			<script src="https://use.fontawesome.com/589fa5d999.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script type="text/javascript" src="script.js"></script>
+			
 		</head>
 
 		<header>
 			<div id="nav">
-				<div id="nav-name"><a href="#">Krista Starr</a></div>
+				<div id="nav-name"><a href="#name">Krista Starr</a></div>
 					<ul>
 						<li><a href="#contact">Contact</a></li>
 						<li><a href="#projects">Projects</a></li>
@@ -22,6 +25,7 @@
 
 		<body>
 			<div class="section" id="name">
+			<a name="name"></a>
 			<h1>krista starr</h1>
 			<h2>full stack developer</h2>
 				<div id="contact-links">
@@ -36,77 +40,73 @@
 		
 			<div class="main section" id="about">
 				<a name="about"></a>
-				<h2 >About Me</h2>
+				<h1>About Me</h1>
 				<img id="selfie" src="assets/photo.png">
 				<p>My motivation for becoming a developer stems from my experiences working with kids with disabilities. As a case manager for students with visual, cognitive, and physical impairments, I developed an interest in universal design and accessibility. I became fascinated with the way innovations in technology were able improve educational opportunities, medical treatment, and everyday quality of life for people with disabilities. As a full‐stack developer, my goal is to deliver products that offer elegant design and robust functionality, without compromising accessibility. I have a passion for front end work, including design and UX.</p>
 				<p>I love being a developer because there are always new things to learn! I am currently working on mastering React and experimenting with a couple of CSS frameworks.</p> 
-				<p>I live in Austin with my dog and my cat. When I'm not writing code, I like taking photos, doing yoga, swimming, and traveling. 
+				<p>I live in Austin with my dog and my cat. When I'm not writing code, I like taking photos</a>, doing yoga, swimming, and traveling. 
 				</p>
+				<a href="resumekristastarr.pdf" download="KristaStarrResume.pdf"><i class="padding fa fa-lg fa-download"></i></a> <a href="resumekristastarr.pdf" download="KristaStarrResume.pdf">Download Resume</a>
 			</div>
-
-
 			
 			<div class="section" id="projects">
 				<a name="projects"></a>
-				<h2>Projects</h2>
+				<h1>Recent Projects</h1>
 				<div class="project">
-					<h3>Rainforest Partnership</h3>
-					<a href="https://rainforestpartnership.org"><img id="sitepic" src="assets/rainforestpartnership.png"></a>
-					<h3><a href="https://rainforestpartnership.org">rainforestpartnership.org</a></h3>
-					<h4>Website for global non-profit committed to saving the rainforests</h4>
-					<p>Currently working on making updates to existing Wordpress site, including donate using PayPal feature, and creating Wordpress Divi theme templates for converting site content to new Wordpress site</p>
+					<h2>Rainforest Partnership</h2>
+					<a href="https://rainforestpartnership.org"><img id="sitepic" src="assets/rainforestpartnership-new.png"></a>
+					<h2><a href="https://rainforestpartnership.org">rainforestpartnership.org</a></h2>
+					<h3>Website for global non-profit committed to saving the rainforests</h3>
+					<p>Creating new website using Wordpress Divi theme templates.</p>
 				</div>
 				<div class="project">
-					<h3>WeAreHear</h3>
+					<h2>WeAreHear</h2>
 					<a href="https://wearehear.herokuapp.com"><img id="sitepic" src="assets/wearehear.png"></a>
-					<h3><a href="https://wearehear.herokuapp.com">wearehear.herokuapp.com</a></h3>
-					<h4>Location-based music and memory sharing app</h4>
+					<h2><a href="https://wearehear.herokuapp.com">wearehear.herokuapp.com</a></h2>
+					<h3>Location-based music and memory sharing app</h3>
 					<p>Created with Ruby, Rails, Postgres,  HTML, CSS, Tachyons, Javascript, and JQuery;
 					Implemented Carrierwave gem, Cloudinary CDN, and Twilio API to enable users to send custom texts to friends</p>
 				</div>
 				<div class="project"> 
-					<h3>Recipe Box</h3>
+					<h2>Recipe Box</h2>
 					<a href="<a href="https://wearehear.herokuapp.com"><img id="sitepic" src="assets/recipebox.png"></a>
-					<h3><a href="https://recipebox-skippers.herokuapp.com">recipebox-skippers.herokuapp.com</a></h3>
-					<h4>App that allows users to share, search for, and rate favorite recipes</h4>
+					<h2><a href="https://recipebox-skippers.herokuapp.com">recipebox-skippers.herokuapp.com</a></h2>
+					<h3>App that allows users to share, search for, and rate favorite recipes</h3>
 					<p>Created with Ruby, Rails, Postgres, HTML, CSS, Bootstrap, Javascript, and JQuery;
 					Utilized Devise gem for user authentication; created NavBar; created nested form to allow users to add new recipes with multiple ingredients</p> 
 				</div>
 				<div class="project">
-					<h3>Good Shepherd Episcopal Church</h3>
+					<h2>Good Shepherd Episcopal Church</h2>
 					<a href="<a href="gsaustin.org"><img id="sitepic" src="assets/goodshepherd.png"></a>
-					<h3><a href="http://gsaustin.org">gsaustin.org</a></h3>
-					<h4>Website for local church allowing them to view information about events, sermons, and worship schedules</h4>
+					<h2><a href="gsaustin.org">gsaustin.org</a></h2>
+					<h3>Website for local church allowing them to view information about events, sermons, and worship schedules</h3>
 					<p>Assisted lead UX designer by compiling data from user research, and produced a report on the findings to assist in website redesign</p> 
 				</div>
 			</div>
 	
 			<div class="section" id="contact">
 				<a name="contact"></a>
-				<h2>Get in Touch</h2>
+				<h1>Get in Touch</h1>
 				<span class="fa-stack fa-lg">
-				  <i class="white fa fa-envelope-o fa-stack-1x"></i>
+					<i class="fa fa-envelope-o fa-stack-1x"></i>
 				</span>
 				<a href="mailto:kristaleighstarr@gmail.com">kristaleighstarr@gmail.com</a></li><br>
 				<span class="fa-stack fa-lg">
-				  <i class="white fa fa-linkedin fa-stack-1x"></i>
+					<i class="fa fa-linkedin fa-stack-1x"></i>
 				</span>
-				<a href="https://linkedin.com/in/kristastarr">https://linkedin.com/in/kristastarr</a><br>
-
+				<a href="https://linkedin.com/in/kristastarr/">https://linkedin.com/in/kristastarr</a><br>
 				<span class="fa-stack fa-lg">
-				  <i class="white fa fa-github fa-stack-1x"></i>
+					<i class="fa fa-github fa-stack-1x"></i>
 				</span>
 				<a href="https://github.com/kristastarr">https://github.com/kristastarr<br>
-
 				<span class="fa-stack fa-lg">
-				  <i class="white fa fa-instagram fa-stack-1x"></i>
+					<i class="fa fa-instagram fa-stack-1x"></i>
 				</span>
 				<a href="https://www.instagram.com/xokristaleigh/">@xokristaleigh</a><br>
-				
 				<span class="fa-stack fa-lg">
-				  <i class="white fa fa-download fa-stack-1x"></i>
+					<i class="fa fa-download fa-stack-1x"></i>
 				</span>
-				<a href="resumekristastarr.pdf" download="KristaStarrResume.pdf">Download Resume</a>
+					<a href="resumekristastarr.pdf" download="KristaStarrResume.pdf">Download Resume</a>
 			</div>
 		</body>
 </html>
