@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+	<html>
+  		<head>
+    		<meta charset="UTF-8">
+			<title>Krista Starr</title>
+			<link rel="icon" href="favicon.ico">
+			<link rel="stylesheet" type="text/css" href="styles.css"/>
+			<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Dosis" rel="stylesheet">
+			<script src="https://use.fontawesome.com/589fa5d999.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script type="text/javascript" src="script.js"></script>
+		</head>
+		<header>
+			<div id="nav">
+				<div id="nav-name"><a href="index.html">Krista Starr</a></div>
+					<ul>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="index.html#projects">Projects</a></li>
+						<li><a href="index.html">About</a></li>
+					</ul>
+			</div>
+		</header>	
+		<body>
+			<section id="wearehear">
+			<h1>WeAreHear</h1>
+			<h2>The Project</h2>
+			<p>WeAreHear is a location-based, memory sharing app.  It allows  users to send a custom text to a friend to remind them of a memory by sharing a map of a memorable location, with a song and a photo tied to the memory.  The app was built for a final group project at Dev Bootcamp.  We created it using Ruby on Rails for the back end and HTML, CSS, Tachyons, Javascript, and JQuery for the front end.  </p> 
+			<img src="assets/wearehear.png">
+			<h2>What I Did</h2>
+			<p>We worked as a team to plan out the core functionality of the site.  We wanted users to be able to send a "bouquet" of memories (consisting of a song, location, and photo) to friends and loved ones in order to invoke happy memories of memorable occasion, which would allow people stay connected in a new way.  We wanted users to be able to view a list of bouquets that they have sent, as well as a list of most popular songs other users have sent, and a heatmap showing the selected lcations of the bouquets have been sent worldwide.  We decided to use the Spotify API to allow users to search for and select songs, and the Google Maps API to allow users to select locations.</p>  
+			
+			<p>I utilized the Carrierwave gem to allow users to upload a photo which could be included in their custom text. I created the form which allowed users to create a new boquet. I styled the upload button to match the rest of the site's design.  Once uploaded, the image is stored in Cloudinary, a cloud service for storing images. 
+			</p>
+			
+			
+			<p>I implemented the Twilio API which enabled the app to send the text with information gathered from the database along with the uploaded photo directly to their friend's phone. I created the texts model and controller, and added code in the bouquet model and controller to successfully implement the API. 
+			</p>
+			<p>Form for new text message:</p>
+			<a href="https://github.com/rpeace770/wearehear/blob/master/app/views/bouquets/_text_form.erb"><img src="assets/wearehear-text-form.png"></a>
+			<p>Texts Model</p>
+			<a href="https://github.com/rpeace770/wearehear/blob/master/app/models/text.rb"><img src="assets/wearehear-texts-model.png"></a>
+			<p>Texts Controller</p>
+			<a href="https://github.com/rpeace770/wearehear/blob/master/app/controllers/texts_controller.rb"><img src="assets/wearehear-texts-controller.png">
+			<p>Bouquet Model</p>
+			<a href="https://github.com/rpeace770/wearehear/blob/master/app/models/bouquet.rb"><img src="assets/wearehear-bouquet-model.png"></a></a>
+			<p>Bouquet Controller</p>
+			<a href="https://github.com/rpeace770/wearehear/blob/master/app/controllers/bouquets_controller.rb"><img src="assets/wearehear-bouquet-controller.png"></a>
+
+
+		
+			<h2>Future Plans</h2>
+			<p>Our ultimate goal would be to enable location-based text messages which would send the user a text if they walked past the location that the sender selected in the memory "bouquet", so that users receive a real-time reminder of a happy memory when they are in the location where the memory took place. 
+			</p>
+			<p><a href="http://wearehear.herokuapp.com/">Visit the Site</a></p>
+			<p><a href="https://github.com/rpeace770/wearehear">Visit the GitHub Repository for the Site</a></p>
+			</section>
+			<div class="section" id="contact">
+				<a name="contact"></a>
+				<h1>Get in Touch</h1>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-envelope-o fa-stack-1x"></i>
+				</span>
+				<a href="mailto:kristaleighstarr@gmail.com">kristaleighstarr@gmail.com</a></li><br>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-linkedin fa-stack-1x"></i>
+				</span>
+				<a href="https://linkedin.com/in/kristastarr/">https://linkedin.com/in/kristastarr</a><br>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-github fa-stack-1x"></i>
+				</span>
+				<a href="https://github.com/kristastarr">https://github.com/kristastarr<br>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-instagram fa-stack-1x"></i>
+				</span>
+				<a href="https://www.instagram.com/xokristaleigh/">@xokristaleigh</a><br>
+				<span class="fa-stack fa-lg">
+					<i class="fa fa-download fa-stack-1x"></i>
+				</span>
+					<a href="resumekristastarr.pdf" download="KristaStarrResume.pdf">Download Resume</a>
+			</div>
+		</body>
+		</html>

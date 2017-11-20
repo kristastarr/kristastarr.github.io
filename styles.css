@@ -82,7 +82,7 @@ h1, h2 {
     text-align: center;
 }
 
-h3{
+h3 {
 	color: #080705;
     font-family: 'Dosis', sans-serif; 
     text-align: center;
@@ -111,11 +111,6 @@ p {
     min-width: 150px;
 }
 
-#sitepic {
-	width: 33%;
-	min-width: 350px;
-}
-
 #name {
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -132,7 +127,7 @@ p {
 	font-family: 'Abril Fatface', cursive; 
 }
 
-#projects h1 {
+#projects, #rp h1 {
 	padding-top: 50px;
 }
 
@@ -141,7 +136,14 @@ p {
 	padding-top: 0px;
 }
 
-#projects img {
+
+#sitepic {
+	width: 33%;
+	min-width: 350px;
+} 
+
+#rp img {
+	min-width: 350px;
 	width: 50vw;
 }
 
@@ -183,4 +185,30 @@ p {
 	font-weight: bold;
 	font-size: 18px;
 }
+
+#rp, #wearehear p {
+	text-align: center;
+}
+
+#rp, #wearehear p:last-of-type {
+	padding-bottom: 50px;
+}
+
+#rp, #wearehear img {
+	display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#wearehear img {
+	width: 85%;
+}
+#wearehear img:first-of-type {
+	width: 50%;
+}
+
+#rp h2 {
+	margin-top: 50px;
+}
+
 
